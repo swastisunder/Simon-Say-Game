@@ -38,3 +38,52 @@ body {
 .userflash {
   background-color: lightyellow;
 }
+/* Center-align text in the body */
+body {
+  text-align: center;
+}
+
+/* Styling for game buttons */
+.btn {
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  margin: 2rem;
+}
+
+/* Flex container for centering buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the red button */
+.red {
+  background-color: #d95980;
+}
+
+/* Styling for the yellow button */
+.yellow {
+  background-color: #f99b45;
+}
+
+/* Styling for the green button */
+.green {
+  background-color: #63aac0;
+}
+
+/* Styling for the purple button */
+.purple {
+  background-color: #819ff9;
+}
+
+/* Flash effect when a button is pressed in the game */
+.flash {
+  background-color: white;
+}
+
+/* Flash effect for user input */
+.userflash {
+  background-color: lightyellow;
+}
